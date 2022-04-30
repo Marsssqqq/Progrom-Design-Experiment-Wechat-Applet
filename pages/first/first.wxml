@@ -1,0 +1,22 @@
+<!--pages/first/first.wxml-->
+
+<button type="primary" bindtap="getName">获取数据测试</button>
+
+<button type="primary" bindtap="goHome">主页</button>
+
+<button type="primary" bindtap="getUserInfo">获取用户信息</button>
+
+<button type="primary" bindtap="getComment">评论页测试</button>
+
+<view hidden="{{show}}">
+  <van-index-bar index-list="{{indexList}}">
+    <view wx:for="{{indexList}}" wx:key="key">
+      <van-index-anchor class="indexBar" index="{{item}}"></van-index-anchor>
+      <view wx:for="{{nameInfo}}" wx:for-item="item1" wx:for-index="index" wx:key="key">
+        <block wx:if="{{item==item1.nameF}}">
+          <van-cell title="{{item1.name}}" is-link size="normal" title-class="cell-value" />
+        </block>
+      </view>
+    </view>
+  </van-index-bar>
+</view>

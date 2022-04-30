@@ -1,0 +1,77 @@
+/**index.wxss**/
+
+page {
+  padding-top: 0rpx;
+  background-color: #f6f6f6;
+  padding-bottom: 60rpx;
+}
+
+.bupt_cell {
+  display: flex;
+  justify-content: center;
+ }
+
+.xueyuan_cell {
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-between;
+ }
+
+ .cell-value {
+  color: rgb(49, 49, 49) !important;
+  font-size: 40rpx !important;
+}
+
+.collapse_title{
+  font-size: 30rpx  !important;
+  color: #686868   !important;
+}
+
+.title {
+  font-family: PingFang SC !important;
+  font-weight: 500;
+  color: #000000;
+  font-size: 44rpx  !important;
+  margin-bottom: 40rpx;
+}
+
+.bottom{
+  height: 125rpx;
+}
+
+.top_tip {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  margin-bottom: 28rpx;
+}
+
+
+
+.line {
+  width: 95%;
+  margin: 0 auto;
+  height: 2rpx;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.environment {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 24rpx;
+  margin-top: 25%;
+}
+
+.card{
+  margin:20rpx;
+  background-color: #fff;
+  border-radius: 80rpx;
+  box-shadow: 0 8rpx 12rpx #ebedf0;
+  margin-bottom: 5rpx;
+  padding: 24rpx;
+ 
+}
+
+
+
+

@@ -1,0 +1,26 @@
+/* pages/xty/xty.wxss */
+
+.cell-value {
+  font-size: 36rpx !important;
+  margin-left: 15rpx !important;
+}
+
+.indexBar{
+  font-size: 34rpx !important;
+}
+
+
+.title {
+
+  color: #464545;
+  font-size: 38rpx;
+  margin-bottom: 40rpx;
+}
+
+.top_tip {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  margin-bottom: 28rpx;
+}

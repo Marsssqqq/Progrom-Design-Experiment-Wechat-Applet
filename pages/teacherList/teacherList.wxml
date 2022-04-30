@@ -1,0 +1,20 @@
+<!--pages/xty/xty.wxml-->
+<!--
+<view wx:for="{{teacherList}}">{{item.name}}</view>
+-->
+
+
+<van-index-bar index-list="{{indexList}}">
+   <view wx:for="{{indexList}}" wx:key="key">
+     <van-index-anchor class="indexBar" index="{{item}}"></van-index-anchor>
+        <view wx:for="{{teacherName}}" wx:for-item="item1" wx:for-index="index" wx:key="key"  >
+          <block wx:if="{{item==item1.nameF}}">
+            <van-cell title="{{item1.name}}"  is-link size="normal" title-class="cell-value"
+            bindtap="rTeacherName"
+            data-Tid="{{item1.Tid}}"/>
+          </block>
+        </view>
+   </view>
+</van-index-bar>
+
+
